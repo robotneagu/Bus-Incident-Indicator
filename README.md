@@ -9,6 +9,7 @@ This project aims at using the data to predict and provide BI solutions on bus i
 
 ### Data Source
 **Bus Breakdown and Delays Link:** https://data.cityofnewyork.us/Transportation/Bus-Breakdown-and-Delays/ez4e-fazm
+Data will be accessed using the API Endpoint though this is subject to change.
 
 Information Architecture, Data Architecture, and Dimensional Modeling can be seen in the Preliminary folder
 
