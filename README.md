@@ -10,9 +10,9 @@ Credit to Professor Jefferson Bien-Aime for helping me thoughout the project.
 This project aims at using the data to predict and provide BI solutions on bus incidents of the United States.
 
 Currently, we are looking at an application-like product where the user can do the following:
-  Type a code to get information on a specific incident
-  Have a live BI interface of incidents
-  Provide predicitive information on why the bus is late and what the cause could be.
+  Type a code to get information on a specific incident<br>
+  Have a live BI interface of incidents<br>
+  Provide predicitive information on why the bus is late and what the cause could be.<br>
 
 The project is divided into two sections: a planning phase and technical phase.
 
