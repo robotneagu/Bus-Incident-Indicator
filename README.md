@@ -6,13 +6,12 @@ Credit to NYC Open Data for creating an open dataset so large it can used in a p
 Credit to Professor Jefferson Bien-Aime for helping me thoughout the project.
 
 ### Project Goals
-
-This project aims at using the data to predict and provide BI solutions on bus incidents of the United States.
+This project aims at using the data collected to predict and provide BI solutions on bus incidents within the United States.
 
 Currently, we are looking at an application-like product where the user can do the following:
   Type a code to get information on a specific incident<br>
   Have a live BI interface of incidents<br>
-  Provide predicitive information on why the bus is late and what the cause could be.<br>
+  Provide predictive information on why the bus is late and what the cause could be.<br>
 
 The project is divided into two sections: a planning phase and technical phase.
 
@@ -23,7 +22,7 @@ The technical phase will construct the data warehouse and perform the operations
 **Bus Breakdown and Delays Link:** https://data.cityofnewyork.us/Transportation/Bus-Breakdown-and-Delays/ez4e-fazm
 Data will be accessed using the API Endpoint though this is subject to change.
 
-Information Architecture, Data Architecture, and Dimensional Modeling can be seen in the Preliminary folder
+Information Architecture, Data Architecture, and Dimensional Modeling can be seen in the Preliminary folder.
 
 ### Data Model
 

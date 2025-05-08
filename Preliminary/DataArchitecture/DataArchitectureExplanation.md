@@ -1,0 +1,3 @@
+Data **sources**, in this project, are users as every smartphone wants to access our application.<br>
+The **input** of the user is put into **temporary storage** such that when the **data warehouse** is freed, that storage can be inputted. The temporary storage is likely deleted afterwards to maintain space in the data warehouse. <br>
+However, it is possible to trace back queries that seem most relevant and store only those records in the data warehouse. A **Tableau** visual is given as a result of the data  architecture process.
