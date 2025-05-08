@@ -18,7 +18,15 @@ The project is divided into two sections: a planning phase and technical phase.
 The planning phase is meant to ensure we have all aspects done correctly to model a proper data warehouse.
 The technical phase will construct the data warehouse and perform the operations of the project goals.
 
-### Data Source
+### Data Requirements
+
+Based on the business and functional requirements, we need our data to contain bus incident information such as: 
+  * Where and how it occurred
+  * How many students were affected
+  * Weather during the incident
+  * Backend info such as whether the bus driver contacted OPT.
+
+#### Data Source
 **Bus Breakdown and Delays Link:** https://data.cityofnewyork.us/Transportation/Bus-Breakdown-and-Delays/ez4e-fazm
 Data will be accessed using the API Endpoint though this is subject to change.
 
