@@ -1,0 +1,66 @@
+Please note a Data Franchising diagram was expanded upon for my diagram.
+
+
+From top to bottom:
+
+*Reference* is the data dictionary to reference each column. Gives the data type and level of importance for each, allowing faster or slower computation.
+
+
+*Gather, Filter* Obtaining the data in a filtered manner and only taking a fraction of that data from the source.
+
+*Restructure, Demoralize* Ensure data is in the correct structure by referring to the reference.
+
+*Business Transform* Calculations are made to achieve the query request from the user.
+
+*Aggregate Data* Perform any additional calculations if requested or possible.
+
+*Store Data* Data is stored mainly for the OLAP cube calculation but also possible to extend the data warehouse with the stored data.
+
+
+*Data Warehouse* Where all the data that is being extracted from. Gets updated by the maintainers but can also be updated by queries.
+
+*Load Staging* The application and data is being pulled out from data warehouse. Possible to extract a certain amount if the user filtered their prompt.
+
+*Transform Staging* Data stored in RAM is being constantly adjusted. Meant to achieve our final answer for the user.
+
+*Data Mart* Small section of data. Will be used in the OLAP cube to achieve the final answer if the request was very difficult.
+
+*OLAP Cube* Performs very complex calculations to achieve the answer of a complex query from a user.
+
+
+*Standard User enter application* A request is made to the system to begin querying for the request.
+
+*User now waits* Request begins transformation cycle to become a standard output.
+
+*Wait for input* User must be patient until they get response. Possible to implement a live incident map to keep the user engaged.
+
+*User could receive answer here* Since data was aggregated, simple queries could return the answer earlier.
+
+*Make another action* User is returned to the home page where they can make another simple query or one more complex to get to the next step
+
+*OLAP Cube* Provides answers for more complex queries. User is then returned to make another query.
+
+
+*User with permission enters application* Mainly for administrative purposes, ensuring the app can be entered and queries can be sent to the API.
+
+*Large box* Reinforces administration and how fragile this architecture really is. Enforces the admins must check in regularly
+
+*Exits application* Once all administration is complete, the privileged user can exit the application.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
