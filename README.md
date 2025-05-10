@@ -5,6 +5,8 @@ All files are in Preliminary as we are still in the planning phase.
 Credit to NYC Open Data for creating an open dataset so large it can used in a project like this.
 Credit to Professor Jefferson Bien-Aime for helping me thoughout the project.
 
+**Note:** All Python scripts used require the user to have Azure CLI installed on their machine. This is used to execute the scripts.
+
 ### Project Goals
 This project aims at using the data collected to predict and provide BI solutions on bus incidents within the United States.
 
@@ -42,3 +44,7 @@ Note that this is still in the design phase and may change in the future.
 
 Accessible via the Preliminary folder.
 The fact and dimension has also been included as an Excel file.
+
+### Storage
+
+Data will be stored using Microsoft Azure. A Python script is included on how to store the data as a CSV file, or a blob on this platform.
