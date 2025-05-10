@@ -6,7 +6,6 @@ from azure.identity import DefaultAzureCredential
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
 
 import pandas as pd
-import datetime
 from sodapy import Socrata
 
 try:
