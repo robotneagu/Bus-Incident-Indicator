@@ -62,7 +62,7 @@ try:
 
         ####Transformation####
         #Remove duplicate index & incident_number which has too many NULLs
-        results_df = results_df.drop(columns=['Unnamed: 0', 'incident_number'])
+        results_df = results_df.drop(columns=['incident_number'])
 
         #Delete all rows with NULL values
         results_df = results_df.dropna()
@@ -137,7 +137,6 @@ try:
         print("\nUploading to Azure Storage as blob:\n\t" + local_file_name)
 
         blob_client.upload_blob(csv_buffer.getvalue(), overwrite=True)
-        
+               
 except Exception as ex:
-        print('Exception:')
-        print(ex)
+        print('Exception:\n', ex)
