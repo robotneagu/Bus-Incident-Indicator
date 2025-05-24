@@ -1,7 +1,5 @@
 # Bus-Incident-Indicator
 
-All files are in Preliminary as we are still in the planning phase.
-
 Credit to NYC Open Data for creating an open dataset so large it can used in a project like this.
 Credit to Professor Jefferson Bien-Aime for helping me thoughout the project.
 
@@ -30,21 +28,24 @@ Based on the business and functional requirements, we need our data to contain b
 
 #### Data Source
 **Bus Breakdown and Delays Link:** https://data.cityofnewyork.us/Transportation/Bus-Breakdown-and-Delays/ez4e-fazm
-Data will be accessed using the API Endpoint though this is subject to change.
+Data was accessed using the API Endpoint.
 
 Information Architecture, Data Architecture, and Dimensional Modeling can be seen in the Preliminary folder.
 
 ### Data Model
 
-Accessible via the Preliminary folder.
+Accessible via the Data References folder. It displays a star schema similar to the dimensional model. However, the variables have been updated based on the data warehouse.
 
 ### Data Warehouse
 
-Note that this is still in the design phase and may change in the future.
+The fact and dimensions have been included as an Excel file in the Preliminary folder.
 
-Accessible via the Preliminary folder.
-The fact and dimension has also been included as an Excel file.
+Snowflake was used to create the data warehouse. SQL scripts were used to extract the data from Azure and store them on the tables in Snowflake. 
+
+Snowflake requires the user to create a database and a stage, where the stage connects Azure. It is recommended to use the SaS method for security reasons.
 
 ### Storage
 
 Data will be stored using Microsoft Azure. A Python script is included on how to store the data as a CSV file, or a blob on this platform.
+
+Snowflake also stored the data once it was retrieved from the blobs.
